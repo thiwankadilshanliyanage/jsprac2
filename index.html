@@ -6,6 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM</title>
+    <style>
+        /*Reset*/
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        /*Navigation*/
+        
+        nav {
+            background-color: #ebca14;
+            max-width: 400px;
+            margin: 0 auto;
+            height: 50px;
+            line-height: 50px;
+            padding-left: 20px;
+        }
+        /*container*/
+        
+        .container .frm,
+        .container .list {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,6 +55,16 @@
                 </select>
                 <button type="submit">Submit</button>
             </form>
+        </div>
+        <div class="list">
+            <h3>Shopping Items</h3>
+            <ul id="li-items">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ul>
         </div>
     </div>
 </body>
